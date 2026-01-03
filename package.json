@@ -1,17 +1,16 @@
 {
-  "name": "My-Secure-Admin-Panel-Blog-Website",
+  "name": "my-secure-admin-panel-blog-website",
   "version": "1.0.0",
-  "description": "My Secure Website like Wordpress Website.",
+  "description": "This is my website just like WP website.",
   "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
   "dependencies": {
     "express": "^4.17.1"
-  },
-  "devDependencies": {},
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
-  },
-  "keywords": ["express"],
-  "author": "Md Mominul Haque Ifti",
-  "license": "ISC"
+  }
 }
