@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Admin Panel</title>
+</head>
+<body>
+
+<script>
+if(sessionStorage.getItem("adminLogin") !== "true"){
+  location.href = "iwd-admin.html";
+}
+</script>
+
+<h1>Admin Panel</h1>
+
+<button onclick="logout()">Logout</button><br><br>
+
+<input id="title" placeholder="Post Title"><br><br>
+<textarea id="content" placeholder="Post Content"></textarea><br><br>
+<input type="file" id="image"><br><br>
+
+<button onclick="savePost()">Publish</button>
+
+<script src="js/admin.js"></script>
+</body>
+</html>

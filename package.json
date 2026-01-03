@@ -1,0 +1,17 @@
+{
+  "name": "My-Secure-Admin-Panel-Blog-Website",
+  "version": "1.0.0",
+  "description": "My Secure Website like Wordpress Website.",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": ["express"],
+  "author": "Md Mominul Haque Ifti",
+  "license": "ISC"
+}
